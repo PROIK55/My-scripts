@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://github.com/PROIK55/My-scripts/blob/main/FrostHubV1.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PROIK55/My-scripts/main/FrostHubV1.lua"))()
